@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Bagian Logo & Menu Togle -->
+    <nav>
+      <div class="logo">
+        <h4>Rifki <span>Nurohmat Ramadani</span></h4>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobby">Hobby</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Bagian Home -->
+    <section class="home" id="home">
+      <div class="home-content" data-aos="fade-left">
+        <h1>Hi, It's <span>Rifki</span></h1>
+        <p>
+          Seorang Programmer UNPAS. Saya tertarik dalam mengembangkan solusi
+          teknologi yang efisien dan inovatif, baik itu untuk aplikasi web,
+          mobile, atau sistem lainnya. Selain itu, saya senang bekerja dalam tim
+          dan terus mengasah keterampilan untuk tetap up-to-date dengan tren dan
+          perkembangan teknologi terbaru.
+        </p>
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/rifkii_nrmdn/profilecard/?igsh=OXg1MnBic2VlZmky"
+          >
+            <i class="bx bxl-instagram-alt"></i>
+          </a>
+          <a href="https://www.tiktok.com/@rifkiinrmdni?_t=8sX3gzEBRys&_r=1">
+            <i class="bx bxl-tiktok"></i>
+          </a>
+        </div>
+        <div class="btn-group">
+          <a href="contact" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img" data-aos="fade-right">
+        <img src="img/1.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Bagian About -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/2.jpg" data-aos="zoom-in" alt="" />
+      </div>
+      <div class="about-content" data-aos="flip-up">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          Saya Rifki Nurohmat Ramadani, seseorang yang memiliki berbagai hobby
+          yang saya nikmati, seperti bermain bola, night ride dan bermain game,
+          saya juga menyukai dunia musik dan bekerja sebagai soundman, dimana
+          saya dapat mengasah keterampilan teknis saya dalam menghasilkan suara
+          yang berkualitas. Meskipun saya menikmati kegiatan ini, saya memiliki
+          cita-cita besar untuk menjadi pengusaha yang sukses
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Bagian Skills -->
+    <section
+      class="skills"
+      id="skills"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
+      <h2 class="heading">Skills</h2>
+      <div class="skills container">
+        <div class="skills-box">
+          <div class="skills-info">
+            <i class="bx bxl-html5"></i>
+            <h4>Html</h4>
+            <p>
+              adalah bahasa markup yang digunakan untuk membuat dan menyusun
+              struktur halaman web. HTML menggunakan elemen-elemen yang disebut
+              tag untuk menandai berbagai bagian konten, seperti teks, gambar,
+              tautan, dan tabel.
+            </p>
+          </div>
+        </div>
+        <div
+          class="skills-box"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <div class="skills-info">
+            <i class="bx bxl-css3"></i>
+            <h4>Css</h4>
+            <p>
+              adalah bahasa yang digunakan untuk mendesain dan mengatur tampilan
+              halaman web, seperti warna, ukuran, tata letak, dan animasi. CSS
+              memisahkan struktur HTML dari desain, membuat pengembangan web
+              lebih terorganisir dan efisien.
+            </p>
+          </div>
+        </div>
+        <div
+          class="skills-box"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <div class="skills-info">
+            <i class="bx bxl-javascript"></i>
+            <h4>Java Script</h4>
+            <p>
+              adalah bahasa pemrograman yang digunakan untuk membuat halaman web
+              interaktif, seperti animasi, formulir dinamis, dan perubahan
+              konten tanpa memuat ulang halaman.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian Hobby -->
+    <section id="hobby" data-aos="zoom-in" class="hobby">
+      <h2 class="heading">Hobby</h2>
+      <div class="hobby-gallery">
+        <div class="hobby-box" data-aos="zoom-in">
+          <div class="hobby-image">
+            <img src="img/3.jpg" alt="" />
+          </div>
+          <div class="hobby-content">
+            <h3>Bermain Bola</h3>
+            <p>Foto sedang bermain bola</p>
+          </div>
+        </div>
+        <div class="hobby-box" data-aos="zoom-in">
+          <div class="hobby-image">
+            <img src="img/4.jpg" alt="" />
+          </div>
+          <div class="hobby-content">
+            <h3>Night Ride</h3>
+            <p>Foto sedang night ride</p>
+          </div>
+        </div>
+        <div class="hobby-box" data-aos="zoom-in">
+          <div class="hobby-image">
+            <img src="img/5.jpg" alt="" />
+          </div>
+          <div class="hobby-content">
+            <h3>Soundman</h3>
+            <p>Foto sedang menjadi operator sound</p>
+          </div>
+        </div>
+        <div class="hobby-box" data-aos="zoom-in">
+          <div class="hobby-image">
+            <img src="img/6.jpg" alt="" />
+          </div>
+          <div class="hobby-content">
+            <h3>Bermain Game</h3>
+            <p>Foto sedang bermain game</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bagian Contact -->
+    <section class="contact" data-aos="flip-down" id="contact">
+      <h2>Contact <span>Me</span></h2>
+      <form name="project1-contact-form" data-aos="flip-down">
+        <label for="name">Nama</label>
+        <input type="text" placeholder="Masukan nama anda" name="nama" />
+        <label for="email">Email</label>
+        <input type="email" placeholder="Masukan email anda" name="email" />
+        <label for="pesan">Pesan</label>
+        <textarea
+          placeholder="Isi Pesan"
+          cols="30"
+          rows="10"
+          name="pesan"
+        ></textarea>
+        <input type="submit" class="submit" value="Kirim" />
+      </form>
+    </section>
+
+    <div class="footer">
+      <p class="copy">Copyright 2024. rifkinrmdni.</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
